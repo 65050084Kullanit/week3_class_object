@@ -1,4 +1,7 @@
 package example.myapp
+
+import example.myapp.decor.makeDecorations
+
 //fun buildAquarium() {
 //    val aquarium1 = Aquarium()
 //    aquarium1.printSize()
@@ -45,6 +48,6 @@ fun makeFish() {
 fun main() {
 //    buildAquarium()
 //    AquariumFish() //ทำไม่ได้เพราะมันเป็น abstract class เหมือน class ที่ยังไม่เสร็จ เราต้องไป extend เขียนให้เสร็จก่อน
-    makeFish()
-
+//    makeFish()
+    makeDecorations()
 }
